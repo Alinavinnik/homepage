@@ -186,7 +186,12 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px 20px;
+  max-width: 450px; /* Задає комфортну ширину для двох колонок (можна налаштувати під себе) */
+  margin: 20px auto 0;
+  padding: 0;
 }
 /* Experience and additional info styles */
 .experiences {
