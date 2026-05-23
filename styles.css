@@ -21,7 +21,7 @@ body {
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #ff9a0045;
+  --border-color: #2702a1;
   --text-decoration-color: #2702a1;
 }
 
@@ -151,9 +151,12 @@ body {
 /* Intro and skills styles */
 .intro {
   display: flex;
+  flex-direction: column;
   justify-content: start;
 }
-
+.intro-title {
+  margin: 0 auto;
+}
 .intro__icon-wrapper {
   margin-right: 30px;
   width: 30px;
