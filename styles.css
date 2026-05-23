@@ -98,7 +98,14 @@ body {
   justify-content: space-between;
   min-width: 235px;
 }
+.social-media {
+  color: var(--primary-text-color);
+  transition: color 0.3s ease;
+}
 
+.social-media:hover {
+  color: #2702a1;
+}
 .contact-info_item {
   margin-bottom: 12px;
 }
@@ -188,7 +195,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px 20px;
-  max-width: 450px; /* Задає комфортну ширину для двох колонок (можна налаштувати під себе) */
+  max-width: 450px;
   margin: 20px auto 0;
   padding: 0;
 }
@@ -235,6 +242,11 @@ body {
 
 .project-link {
   font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: var(--primary-text-color);
 }
 
 .experiences__company-project-name {
